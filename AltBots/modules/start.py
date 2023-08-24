@@ -8,11 +8,11 @@ START_BUTTON = [
         Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="help_back")
     ],
     [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/RadhaX2Update"),
-        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/RadhaX2Support")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/hackersankalp20"),
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/hackersankalp20")
     ],
     [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/Radhak8/BOTXSPAM")
+        Button.url("• ʀᴇᴘᴏ •", "#")
     ]
 ]
 
@@ -34,13 +34,13 @@ async def start(event):
         bot_name = AltBot.first_name
         bot_id = AltBot.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [Rᴀᴅʜᴀ Sɪɴɢʜ](https://t.me/GhostRadha)**\n\n"
+        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [ꜱᴀɴᴋᴀʟᴘ ꜱɪɴɢʜ](https://t.me/blackholefoxyt)**\n\n"
         TEXT += f"» **xʙᴏᴛꜱ ᴠᴇʀsɪᴏɴ :** `M3.3`\n"
         TEXT += f"» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `3.11.3`\n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                     event.chat_id,
-                    "https://te.legra.ph/file/2ccae3cb7e3415e598100.jpg",
+                    "https://te.legra.ph/file/1b91e1f1327388b758bda.jpg",
                     caption=TEXT, 
                     buttons=START_BUTTON
                 )
